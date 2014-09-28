@@ -56,7 +56,7 @@
 						<td><pre>[pt-npt id=<?=$key;?> output="%TITEL% {d. F Y}" else=""]</pre></td>
 						<td><input type="checkbox" name="pt-npt-del[<?=$key;?>]" value="1" /></td>
 					</tr>
-					<?
+					<?php
 				}
 			?>
 			<tr>
