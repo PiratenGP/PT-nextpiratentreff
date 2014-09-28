@@ -3,7 +3,7 @@
 Plugin Name: Piraten-Tools / Next Piratentreff
 Plugin URI: https://github.com/PiratenGP/PT-nextpiratentreff
 Description: Piraten-Tools / Next Piratentreff
-Version: 1.0.0
+Version: 1.0.1
 Author: @stoppegp
 Author URI: http://stoppe-gp.de
 License: CC-BY-SA 3.0

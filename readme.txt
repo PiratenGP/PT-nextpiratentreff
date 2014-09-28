@@ -6,7 +6,7 @@ Dadurch kann man z.B. automatisiert den nächsten Stammtisch-Termin ausgeben.
 
 Info: Das Originalprojekt "Piraten-Tools" wurde in die einzelnen Module aufgespaltet. Ein Upgrade dürfte ohne Datenverlust möglich sein, einfach das alte Plugin deaktivieren und die neuen Plugins installieren und aktivieren.
 
-Version 1.0.0, 06.08.2014
+Version 1.0.1, 28.09.2014
 
 Autor: @stoppegp
 Lizenz: CC-BY-SA 3.0, http://creativecommons.org/licenses/by-sa/3.0/de/deed.de
@@ -14,6 +14,8 @@ Lizenz: CC-BY-SA 3.0, http://creativecommons.org/licenses/by-sa/3.0/de/deed.de
 Github: https://github.com/PiratenGP/PT-nextpiratentreff
 
 Changelog:
+= 28.09.2014 - v1.0.1 =
+- Bugfix
 = 06.08.2014 - v1.0.0 =
 - Aufspaltung des Originalprojekts "Piraten-Tools"
 
