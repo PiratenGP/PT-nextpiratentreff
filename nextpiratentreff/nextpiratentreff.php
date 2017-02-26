@@ -103,7 +103,7 @@ class PT_nextpiratentreff {
 			$string = str_replace("%TITEL2%", $e_title2, $string);
 			$string = str_replace("%TITEL%", $e_title, $string);
 			$string = str_replace("%ORT%", $e_location, $string);
-			$string = preg_replace('/(\{(.*?)})/e', 'date_i18n("$2", strtotime(get_date_from_gmt( date( "Y-m-d H:i:s", $event0["start"] ))), false)', $string);
+			$string = preg_replace_callback('/(\{(.*?)})/', function ($treffer) use ($event0) { return date_i18n($treffer[2], strtotime(get_date_from_gmt( date( "Y-m-d H:i:s", $event0["start"] ))), false); }, $string);
 			return $string;
 		} else {
 			return $atts['else'];
